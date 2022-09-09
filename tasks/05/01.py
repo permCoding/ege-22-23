@@ -1,3 +1,8 @@
+import os
+
+
+os.system("cls||clear")
+
 for N in range(1, 100):
     b = bin(N)[2:]
     if b.count('1') % 2 == 0:
