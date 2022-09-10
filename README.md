@@ -34,6 +34,7 @@
 
 1. [Курс на Stepik`е для подготовки к ЕГЭ](https://stepik.org/50169/)  
 2. [Тренировочные задачи по ЕГЭ в ЯндексРепетиторе](https://yandex.ru/tutor/subject/?subject_id=6)  
+3. [Документация по библиотеке Turtle](https://docs-python.ru/standart-library/modul-turtle/)  
 
 ---  
 
