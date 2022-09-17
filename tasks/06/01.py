@@ -21,3 +21,5 @@ for x in range(12):
     for y in range(12):
         setpos(x0+x*step, y0+y*step)
         dot(3, 'black')
+
+done()

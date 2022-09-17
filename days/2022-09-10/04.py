@@ -23,3 +23,5 @@ for i in range(6):
 ##right(90)
 ##forward(1 * step)
 ##right(90)
+
+done()

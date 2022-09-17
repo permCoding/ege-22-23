@@ -15,3 +15,4 @@ width(5)
 forward(10*step)
 right(120)
 
+done()

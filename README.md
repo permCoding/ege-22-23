@@ -29,6 +29,7 @@
 7) [Редактор кода **Thonny**](https://thonny.org/)  
 8) [Среда разработки PyCharm Community](https://www.jetbrains.com/ru-ru/pycharm/download/)  
 9) [Учебная доска](https://jamboard.google.com/)  
+10) [КУМИР](https://www.niisi.ru/kumir/dl.htm)  
 
 Дополнительно рекомендую:  
 
