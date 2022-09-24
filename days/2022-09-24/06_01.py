@@ -14,6 +14,6 @@ while i < 26:
     left(45)
     backward(5*step)
     right(30)
-    i += 1
+    i = i + 1  # i += 1
 
 done()
