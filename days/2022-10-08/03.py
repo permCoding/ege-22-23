@@ -3,7 +3,7 @@ import os
 os.system('cls')
 
 # ver 1
-for n in range(1, 100):
+for n in range(1, 1000):
     b = bin(n)[2:]  # 1. Строится двоичная запись числа N
     cnt = b.count('1')
     if cnt % 2 == 0:
