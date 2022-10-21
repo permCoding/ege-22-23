@@ -1,9 +1,11 @@
 # https://inf-ege.sdamgia.ru/problem?id=47218
 
-for i in '0123456789abcde':
-    a = '123' + i + '5'
-    b = '1' + i + '233'
-    r = int(a, 15) + int(b, 15)
+for i in range(10):
+    a = '123' + str(i) + '5'
+    b = '1' + str(i) + '233'
+    a = int(a, 15)
+    b = int(b, 15)
+    r = a + b
     if r % 14 == 0:
         print(r // 14)
         break
