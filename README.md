@@ -19,6 +19,7 @@
 
 * [BBB6](https://bbb6.psaa.ru/b/qt6-06w-o09-6wz)  
 * [BBB3, если не работает сервер BBB6](https://bbb3.psaa.ru/b/crk-eif-gxb-wz5)  
+* [Доска для рисования](https://jamboard.google.com/d/1xmh7Mrc_nAR3PmstdYa9nYTs9L2-kh0dS6ZtaswkQZU/edit?usp=sharing)  
 
 ### Где будем брать задачи для тренировок:  
 
