@@ -2,7 +2,9 @@ f = open("17.txt")
 
 lst = [abs(int(line)) for line in f]
 
-max3 = max([x for x in lst if x%3==0])
+max3 = max([x for x in lst if x%10==3])
+
+print(max3, len(lst))
 
 pairs = []
 max_sum = -100000
