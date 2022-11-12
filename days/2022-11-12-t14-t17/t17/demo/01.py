@@ -1,0 +1,7 @@
+f = open("17.txt")
+line = f.readline()
+print(int(line))
+line = f.readline()
+print(int(line))
+line = f.readline()
+print(int(line))
