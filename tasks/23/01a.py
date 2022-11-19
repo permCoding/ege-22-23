@@ -1,9 +1,12 @@
 def get(x, y):
-    if x > y: return 0
-    if x == y: return 1
-    way1 = get(x+2,y)
-    way2 = get(x*5,y)
-    return way1 + way2
+    lst = [0] * 1000
+    lst[x] = 1
+    for i in range(x, y):
+        pos1 = i+2
+        pos2 = i*5
+        lst[pos1] += lst[i]
+        lst[pos2] += lst[i]
+    return lst[:y+1]
 
 
 print(get(2,50))
