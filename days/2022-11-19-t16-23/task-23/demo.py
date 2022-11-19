@@ -6,4 +6,3 @@ def get(x, y):
 
 
 print(get(1, 10)*get(10, 35))
-
