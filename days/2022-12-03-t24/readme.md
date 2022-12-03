@@ -2,7 +2,32 @@
 
 - Пара 1 - разминка  
 - Пара 2 - Задача 24  
-- Пара 2 - Задача 24  
+- Пара 3 - Задача 24  
+
+---  
+
+Разминка  
+
+- это задачи на повторение материала  
+...  
+
+---  
+
+**Методы строк:**  
+
+https://pythonworld.ru/tipy-dannyx-v-python/stroki-funkcii-i-metody-strok.html  
+https://pythonworld.ru/osnovy/formatirovanie-strok-metod-format.html  
+
+- сложение строк  
+- умножение строк  
+- индексация в строке  
+- срезы строк  
+- форматирование в строке  
+- как из строки вывести только цифры  
+- как можно из слова взять его среднюю букву если оно нечётное  
+- как посчитать в тексте количество слов длины пять  
+- Преобразуйте строку в список элементов и сделайте так, чтобы в получившейся переменной не было повторений.
+y = 'long long string'  
 
 ---  
 
@@ -27,9 +52,9 @@
 task 24  
 
 https://inf-ege.sdamgia.ru/problem?id=27686  
+https://inf-ege.sdamgia.ru/problem?id=40999  
 https://inf-ege.sdamgia.ru/problem?id=27690  
 https://inf-ege.sdamgia.ru/problem?id=45258  
 https://inf-ege.sdamgia.ru/problem?id=27689  
 
 ---  
-
