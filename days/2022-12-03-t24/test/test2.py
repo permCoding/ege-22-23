@@ -1,13 +1,14 @@
-# split
 # len
-# join
+# split
 # [::]
-# upper lower
-# isdigit
 # replace
+# join
 # find
 # count
+
 # strip
+# isdigit
+# upper lower
 
 # PEP 8
 
