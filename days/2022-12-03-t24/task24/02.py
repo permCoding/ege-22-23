@@ -8,6 +8,7 @@ s = s \
     .replace('ZZ', 'Z Z')
 
 lst = s.split()
+print(lst)
 print(len(max(lst, key=len)))
 print(max([len(elm) for elm in lst]))
 
