@@ -1,6 +1,7 @@
 # https://inf-ege.sdamgia.ru/problem?id=27421
 
 s = open('02.txt').readline()
+
 t, m = 1, 0
 for i in range(len(s)-1):
     if s[i] != s[i+1]:
