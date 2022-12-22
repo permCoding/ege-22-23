@@ -1,4 +1,4 @@
-f = open("26_2022_HARD.txt")
+f = open("26_2022_HARD.txt")  # 5377
 n, m = map(int, f.readline().split('\t'))
 
 lst_full, lst_sneg = [], []

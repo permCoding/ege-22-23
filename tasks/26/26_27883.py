@@ -1,5 +1,5 @@
 # https://inf-ege.sdamgia.ru/problem?id=27883
-f = open("26_27883.txt")
+f = open("26_27883.txt")  # и 27884
 m, n = map(int, f.readline().split())
 # t = sorted([int(line) for line in f])
 t = sorted(map(int, f.readlines()))
