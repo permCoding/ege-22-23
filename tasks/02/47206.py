@@ -1,9 +1,8 @@
 # https://inf-ege.sdamgia.ru/problem?id=47206
 
-# ¬ (y → x) ∨ (z → w) ∨ ¬z
-
-def f(x,y,z,w):
+def f(x,y,z,w):  # ¬ (y → x) ∨ (z → w) ∨ ¬z
     return not(y <= x) or (z <= w) or not(z)
+
 
 for x in 0,1:
     for y in 0,1:
