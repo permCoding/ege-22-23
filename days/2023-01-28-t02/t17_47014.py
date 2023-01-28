@@ -8,7 +8,8 @@ for i in range(len(nums)-1):
     a, b = nums[i], nums[i+1]
     u1 = a%5==0 and b<avg
     u2 = b%5==0 and a<avg
-    if int(u1) ^ int(u2):
+##    if int(u1) ^ int(u2):
+    if int(u1) or int(u2): # так по условию - или тот или тот или оба
         k += 1
         sm = max(sm, a+b)
 
