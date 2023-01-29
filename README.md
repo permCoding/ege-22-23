@@ -6,6 +6,9 @@
 
 [![telegram](https://pcoding.ru/ico/telegram.png)](https://t.me/AndreyPerm)  
 
+
+[Наши планы](https://docs.google.com/spreadsheets/d/1Kw0XZmMWeDn3DAlK7mHgJYqDovw2AngaE7qRtOuJhSY/edit?usp=sharing)  
+
 [ДНИ НАШИХ ЗАНЯТИЙ И ИЗУЧАЕМЫЕ ВОПРОСЫ](days.md)  
 
 ```txt  
