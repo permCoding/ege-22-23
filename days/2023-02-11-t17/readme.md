@@ -1,4 +1,6 @@
 
+[Наши планы](https://docs.google.com/spreadsheets/d/1Kw0XZmMWeDn3DAlK7mHgJYqDovw2AngaE7qRtOuJhSY/edit?usp=sharing)
+
 6049  
 6024  
 
