@@ -1,19 +1,9 @@
 import re
 
-# for num in range(2023, 10**10 + 1, 2023):
-
-
-
-lst = [
-    '1021394',
-    '102139456',
-    '55510213977777456',
-    '102139777774',
-]
-ptn = '1.2139.*4'
-for elm in lst:
-    if re.match(ptn, elm):
-        print(elm)
+for num in range(2023, 10**10 + 1, 2023):
+    ptn = '^1.2139.*4$'
+    if re.match(ptn, str(num)):
+        print(num, num//2023)
 
 """
 Среди натуральных чисел, не превышающих 10**10, найдите все числа,

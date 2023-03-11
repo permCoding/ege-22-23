@@ -24,7 +24,7 @@
 22 - . diagr ganta  
 23 - 22-11-19  
 24 - 22-12-03, 22-12-08  
-25 - 23-03-11 - mask digits  
+25 - 23-03-11 - re mask digits + Stepik  
 26 - 22-12-22  
 27 - . din pro  
 
