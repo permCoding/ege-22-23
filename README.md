@@ -6,7 +6,6 @@
 
 [![telegram](https://pcoding.ru/ico/telegram.png)](https://t.me/AndreyPerm)  
 
-
 [Наши планы](https://docs.google.com/spreadsheets/d/1Kw0XZmMWeDn3DAlK7mHgJYqDovw2AngaE7qRtOuJhSY/edit?usp=sharing)  
 
 [ДНИ НАШИХ ЗАНЯТИЙ И ИЗУЧАЕМЫЕ ВОПРОСЫ](days.md)  
@@ -18,8 +17,11 @@
 13:20 - 14:50  
 ``` 
 
-### Прямые трансляции (стримы) занятий тут:  
-[Стрим на YouTube 19.11.2022 10:00 - 14:50](https://youtu.be/iltyvK6zNkI)  
+### Где будем брать задачи для тренировок:  
+
+* [задачи ЕГЭ sdamgia](https://inf-ege.sdamgia.ru/)  
+* [kompege](https://kompege.ru/)  
+* [Сайт Константина Полякова](https://kpolyakov.spb.ru/school/ege/tests.htm)  
 
 ### Дистанционные занятия тут:  
 
@@ -28,10 +30,8 @@
 * [Доска для рисования](https://jamboard.google.com/d/1xmh7Mrc_nAR3PmstdYa9nYTs9L2-kh0dS6ZtaswkQZU/edit?usp=sharing)  
 * [Google Colab](https://colab.research.google.com/drive/1Ip_2tQ3MZDehmYG36aAHPFj_msrPgJCt?usp=sharing)  
 
-### Где будем брать задачи для тренировок:  
-
-* [Сайт для решения задач ЕГЭ inf-ege.sdamgia](https://inf-ege.sdamgia.ru/)  
-* [Сайт Константина Полякова](https://kpolyakov.spb.ru/school/ege/tests.htm)  
+### Прямые трансляции (стримы) занятий тут:  
+[Стрим на YouTube 19.11.2022 10:00 - 14:50](https://youtu.be/iltyvK6zNkI)  
 
 Чем будем пользоваться:  
 
@@ -55,4 +55,3 @@
 ---  
 
 [Карта знаний по программированию для ЕГЭ](knowledge-map.md)  
-
