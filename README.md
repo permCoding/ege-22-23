@@ -45,6 +45,7 @@
 8) [Среда разработки PyCharm Community](https://www.jetbrains.com/ru-ru/pycharm/download/)  
 9) [Учебная доска](https://jamboard.google.com/)  
 10) [КУМИР](https://www.niisi.ru/kumir/dl.htm)  
+11) [редактор Wing](https://wingware.com/downloads/wing-101)  
 
 Дополнительно рекомендую:  
 
