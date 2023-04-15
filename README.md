@@ -19,8 +19,8 @@
 
 ### Где будем брать задачи для тренировок:  
 
-* [задачи ЕГЭ sdamgia](https://inf-ege.sdamgia.ru/)  
 * [kompege](https://kompege.ru/)  
+* [задачи ЕГЭ sdamgia](https://inf-ege.sdamgia.ru/)  
 * [Сайт Константина Полякова](https://kpolyakov.spb.ru/school/ege/tests.htm)  
 
 ### Дистанционные занятия тут:  
