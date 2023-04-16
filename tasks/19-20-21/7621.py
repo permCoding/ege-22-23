@@ -1,64 +1,30 @@
-def f19(n, step):
+# 1 камень, базовый
+def f(n, step):
     if n >= 43: return step % 2 == 0  # выиграл ли победитель
-    if step == 2: return False
-    #if step == 2: return n >= 43  # выиграл ли Ваня
-    #if step == 1 and n >= 43: return False  # нельзя чтобы выиграл Петя первым ходом
-
-    step += 1
-    a = f19(n+1, step)
-    b = f19(n+4, step)
-    c = f19(n*3, step)
-
-    if step == 1:
-        return a and b and c  # при любом ходе Пети
+    if step == 0: return False  # это уже лишний ход
+    step -= 1
+    lst = [
+            f(n+1, step), 
+            f(n+4, step), 
+            f(n*3, step)
+        ]
+    if step % 2 != 0:
+        return all(lst)  # при любом ходе проигравшего
     else:
-        return a or b or c  # Ваня может выиграть
+        return any(lst)  # победитель сможет выиграть
 
-for s in range(1, 43):
-    if f19(s, 0):  # ход Пети
-        print(s)
-        break
-
-
-def f20(n, step):
-    if step == 3: return n >= 43  # выиграл ли Петя
-    if step == 2 and n >= 43: return False  # нельзя чтобы выиграл Ваня первым ходом
-    if step == 1 and n >= 43: return False  # нельзя чтобы выиграл Петя первым ходом
-
-    step += 1
-    a = f20(n+1, step)
-    b = f20(n+4, step)
-    c = f20(n*3, step)
-
-    if step == 2:
-        return a and b and c  # при любом ходе Вани
-    else:
-        return a or b or c  # Петя может выиграть
-
-#for s in range(1, 43):  # Петя - Ваня - Петя
-    #if f20(s, 0):  # ход Пети
-        #print(s)
-
-
-def f21(n, step):
-    if step == 4 or step == 2: return n >= 43  # выиграл ли Ваня
-    #if step == 2 and n >= 43: return False  # нельзя чтобы выиграл Ваня первым ходом
-    if (step == 1 or step == 3) and n >= 43: return False  # нельзя чтобы выиграл Петя
-
-    step += 1
-    a = f21(n+1, step)
-    b = f21(n+4, step)
-    c = f21(n*3, step)
-
-    if step == 1 or step == 3:
-        return a and b and c  # при любом ходе Пети
-    else:
-        return a or b or c  # Ваня может выиграть
-
-#for s in range(1, 43):  # Петя - Ваня - Петя
-    #if f21(s, 0):  # ход Пети
-        #print(s)
-        #break
+r = []
+for s in range(1, 43):  # Петя 1 - Ваня 1 - Петя 2 - Ваня 2
+    if f(s, 2):  # Ваня выиграл своим первым
+    # if f(s, 3) and not(f(s, 1)):  # Петя выиграл вторым и не выиграл первым
+    # if f(s, 4) and not(f(s, 2)):  # Ваня выиграл вторым и не выиграл первым
+        r.append(s)
+print(r)
+"""
+14
+10 13
+9
+"""
 
 '''
 № 7621 Досрочная волна 2023 (Уровень: Базовый)
