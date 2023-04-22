@@ -3,23 +3,17 @@ def f(n, step):
     if n >= 43: return step % 2 == 0  # выиграл ли победитель
     if step == 0: return False  # это уже лишний ход
     step -= 1
-    lst = [
-            f(n+1, step), 
-            f(n+4, step), 
-            f(n*3, step)
-        ]
-    if step % 2 != 0:
-        return all(lst)  # при любом ходе проигравшего
-    else:
+    lst = [f(n+1, step), f(n+4, step), f(n*3, step)]
+    if step % 2 == 0:  # чётные 0,2,4 - ходы победителя
         return any(lst)  # победитель сможет выиграть
+    else:
+        return all(lst)  # при любом ходе проигравшего
 
-r = []
 for s in range(1, 43):  # Петя 1 - Ваня 1 - Петя 2 - Ваня 2
     if f(s, 2):  # Ваня выиграл своим первым
     # if f(s, 3) and not(f(s, 1)):  # Петя выиграл вторым и не выиграл первым
     # if f(s, 4) and not(f(s, 2)):  # Ваня выиграл вторым и не выиграл первым
-        r.append(s)
-print(r)
+        print(s)
 """
 14
 10 13
