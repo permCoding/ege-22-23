@@ -11,7 +11,8 @@ for _ in range(n):
 
 mx = 0
 for i in range(m, len(t)-2*m):
-    mx = max(mx, sum(t[i-m:i+m+1]))
+    if t[i]!=0:
+        mx = max(mx, sum(t[i-m:i+m+1]))
 print(mx)  # 264
 
 #for e in t[:10]:

@@ -8,12 +8,7 @@ count = 0
 for i in range(0, n-1):  # a
     for b in t[i+1:min(n,i+k+1)]:  # b
         if (t[i]+b)%17 == 0: count += 1
-print(count)  # 128655900
+print(count)
 
-"""
-k = 3
-0 1 2 3 4 5 6 7
-b b b a b b b _
-a b b b _ _ _ _
-_ a b b b _ _ _
-"""
+# 15079
+# 128655900
