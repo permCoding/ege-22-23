@@ -14,7 +14,7 @@ tmp = sum([w[i]*w[d-i] for i in range(1, d//2+1)]) + (1+nn)*nn//2
 for i in range(n-k-1):
     w[t[i]%d] -= 1
     pos = t[i+k+1]%d
-    tmp += w[(d-pos)%17]
+    tmp += w[(d-pos)%d]
     w[pos] += 1
 
 print(tmp)
