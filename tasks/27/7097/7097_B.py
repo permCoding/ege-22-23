@@ -1,6 +1,6 @@
-f = open('./27_A_7097.txt')
+f = open('./27_B_7097.txt')
 n = int(f.readline())
-t = [0] * 1_000  # 10_000_000 !!! !!! !!! !!! !!!
+t = [0] * 10_000_000  # 10_000_000 !!! !!! !!! !!! !!!
 for _ in range(n):
     pos, k = map(int, f.readline().split())
     t[pos] = (k-1)//44+1

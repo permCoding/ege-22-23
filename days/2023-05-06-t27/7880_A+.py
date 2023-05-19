@@ -1,4 +1,5 @@
-f = open('./27B_7880.txt')
+# f = open('./27B_7880.txt')
+f = open('./27A_7880.txt')
 
 n = int(f.readline())
 k = int(f.readline())

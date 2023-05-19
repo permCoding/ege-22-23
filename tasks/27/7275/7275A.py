@@ -10,7 +10,7 @@ for _ in range(n):
     t[a] = b
 
 mx = 0
-for i in range(m, len(t)-2*m):
+for i in range(m, len(t)-m):
     if t[i]!=0:
         mx = max(mx, sum(t[i-m:i+m+1]))
 print(mx)  # 264
