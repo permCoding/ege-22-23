@@ -9,3 +9,11 @@ for i in range(1, n):
         k += 1
         a = t[i]
 print(k, a)  # 854 54
+
+'''
+sort rev
+=ЕСЛИ(B1-A2>=11;A2;B1)
+=ЕСЛИ(B1<>B2;1;0)
+=СУММ(C:C)
+last
+'''
