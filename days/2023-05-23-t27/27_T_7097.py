@@ -5,9 +5,9 @@ n = int(f.readline())
 t = [0] * 11
 for e in f:
     km, p = map(int, e.split())
-    # t[km] = p//44 + (0 if p%44==0 else 1)  # 1
-    # t[km] = (p + 43)//44  # 2
-    t[km] = ceil(p/44)  # 3
+    # t[km] = p//96 + (0 if p%96==0 else 1)  # 1
+    # t[km] = (p + 95)//96  # 2
+    t[km] = ceil(p/96)  # 3
 print(t)
 
 mn = 10**50
